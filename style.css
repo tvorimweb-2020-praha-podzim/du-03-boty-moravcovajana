@@ -3,7 +3,7 @@ html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
 body {
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility; 
 }
 
 
@@ -27,4 +27,26 @@ body {
 .zbozi{
     display: flex;
     font-family: 'Rubik', sans-serif;
+    width: 670px;    
 }
+
+.vizual{
+    
+    background: linear-gradient(#06d7c1,#50cc49);
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 50%;
+    position: relative;
+}
+
+.bota{
+    position: absolute;
+}
+
+.detaily{
+    
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 50%;
+}
+
