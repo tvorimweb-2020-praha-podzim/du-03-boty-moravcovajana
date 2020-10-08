@@ -32,6 +32,7 @@ body {
     display: flex;
     font-family: 'Rubik', sans-serif;
     width: 670px; 
+    height: 440px;
 }
 
 .vizual{
@@ -85,9 +86,35 @@ body {
 }
 
 .detaily{
-    
+    display: flex;    
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 50%;
+    flex-direction: column;
 }
+
+.nazev{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.parametr{
+margin: 30px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   padding: 0;
+}
+
+li{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
 
